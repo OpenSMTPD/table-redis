@@ -179,4 +179,19 @@ smtpd.conf(5),
 smtpctl(8),
 smtpd(8)
 
+# HISTORY
+
+The first version of
+**table\_redis**
+was written in 2015.
+It was converted to the stdio protocol in 2024.
+
+# AUTHORS
+
+**table\_redis**
+was initially written by
+Emmanuel Vadot &lt;Mq elbarto@bocal.org&gt;.
+The conversion to the stdio table protocol was done by
+Omar Polo &lt;[op@openbsd.org](mailto:op@openbsd.org)&gt;.
+
 Nixpkgs - April 21, 2024
