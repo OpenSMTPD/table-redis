@@ -190,7 +190,7 @@ It was converted to the stdio protocol in 2024.
 
 **table\_redis**
 was initially written by
-Emmanuel Vadot &lt;Mq elbarto@bocal.org&gt;.
+Emmanuel Vadot &lt;[elbarto@bocal.org](mailto:elbarto@bocal.org)&gt;.
 The conversion to the stdio table protocol was done by
 Omar Polo &lt;[op@openbsd.org](mailto:op@openbsd.org)&gt;.
 
