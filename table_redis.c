@@ -82,7 +82,7 @@ config_load(const char *path)
 		goto end;
 	}
 
-	while ((flen = getline(&buf, &sz, fp)) == -1) {
+	while ((flen = getline(&buf, &sz, fp)) != -1) {
 		if (buf[flen - 1] == '\n')
 			buf[flen - 1] = '\0';
 
