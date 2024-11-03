@@ -1,3 +1,5 @@
+SUBDIRS =		openbsd-compat
+
 noinst_PROGRAMS =	table-redis
 
 table_redis_SOURCES =	table_redis.c dict.c log.c table_stdio.c util.c
